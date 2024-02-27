@@ -1,0 +1,166 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    margin: 0px;
+
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+/*Aca podemos cambiar el color*/
+header {
+    background-image: url("https://th.bing.com/th/id/R.eaf16fdabccfa69c11cf069b4e58ad86?rik=0Vwbn%2bdUYeIVkg&riu=http%3a%2f%2fstudyprof.com%2fblog%2fwp-content%2fuploads%2f2008%2f11%2fstudy-stuff.jpg&ehk=KwvCoZCESiHrNPQdflmdLa7bo2OZqKhoQr5a3RKvnWk%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:;
+}
+
+.main .contenedor {
+    overflow: visible;
+
+}
+
+.main .acerca-de {
+    text-align: center;
+
+}
+
+.main .acerca-de .foto {
+    margin-top: -60px;
+
+}
+
+.main .acerca-de .foto img {
+    vertical-align: top;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+
+}
+
+.main .acerca-de .texto {
+    color: #5a5a5a;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 30px;
+    width: 80%;
+    margin: 40px auto 60px auto;
+}
+
+/*En color podemos cambiar el colo de el titulo de Acerca de..*/
+.main .acerca-de .texto .titulo {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #4b71a8;
+    text-align: center;
+
+}
+
+.main .acerca-de .texto .bold {
+    color: #3895ea;
+    text-decoration: underline;
+}
+
+
+
+footer .redes-sociales {
+    background: #1e2b38;
+    padding: 60px 0;
+
+}
+
+footer .redes-sociales .contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+}
+
+.redes-sociales img {
+    width: 40px;
+    /* Ajusta el ancho según sea necesario */
+    height: 40px;
+    /* Ajusta la altura según sea necesario */
+}
+
+
+header .menu {
+    margin: 40px 0;
+    text-align: right;
+}
+
+/*Aca podemos cambiar el color de Mi instagram en color*/
+header .menu a {
+    margin: 0 20px;
+    color: #fff;
+    padding-bottom: 9px;
+    font-size: 1em;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+header .menu a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+header .contenedor-texto {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 190px 0;
+}
+
+header .contenedor-texto .texto {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 60px;
+}
+
+header .contenedor-texto .texto h1,
+header .contenedor-texto .texto h2 {
+    color: #fff;
+    font-weight: 300;
+
+}
+
+header .contenedor-texto .texto .nombre {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-size: 40px;
+    line-height: 50px;
+
+}
+
+header .contenedor-texto .texto .profesion {
+    font-size: 20px;
+    line-height: 25px;
+
+
+}
+
+a {
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 15px 0px;
+    border-radius: 3px;
+    font-size: 30px;
+    margin: 0px;
+}
